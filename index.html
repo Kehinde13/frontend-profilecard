@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Profile card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+  				body{
+  				background-color: hsl(185, 75%, 39%); width:1440px ; height: 100vh; overflow:hidden ;
+          border-collapse: separate;
+  				}
+          .top{
+            margin-top:-100px ;
+          }
+          .bottom{
+            float: right; margin-top: -100px;
+          }
+          .container{
+            text-align: center; background-color: white; margin-left: 400px; margin-right:600px;
+            margin-top: -200px; border-radius: 20px; box-shadow:3px black;}
+            .vic{
+              margin-top: -50px;
+            }
+            .followers,.likes,.photos {
+              display: inline-block; text-align: left; padding:30px; text-align: center;
+            }
+            .profile{
+              border-top: -30px; font-size: 18px;
+            }
+          #pattern{ 
+            border-radius: 50px;
+          }
+
+    .attribution { font-size: 11px; text-align: center; margin-left: 400px;   }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="top">
+  <img src="images\bg-pattern-top.svg" alt="img" height="500px">
+  </div>
+  <div class="bottom">
+    <img src="images\bg-pattern-bottom.svg" alt="img" height="500px" width="600px">
+  </div>
+   </div>
+   <div class="container">
+     <div id="pattern">
+    <img style="border-top-left-radius: 20px; border-top-right-radius: 20px;"  src="images\bg-pattern-card.svg" alt="svg" height="150px" width="440px"  >
+    </div>
+    
+    <div class="profile">
+      <div class="vic">
+       <img style="border-radius: 50px;" src="images\image-victor.jpg" alt="vic" height="100px" width="100px"><br>
+      </div>
+      <div class="victor">
+      <B>Victor Crest</B>
+       26<br>
+       London
+       <hr>
+      </div>
+  <div class="followers"> 
+   <b> 80K</b><br>
+    Followers
+    <br>
+  </div>
+  <div class="likes">
+   <b> 803K</b><br>
+    Likes
+  <br>
+</div>
+  <div class="photos">
+   <b>1.4K</b> <br>
+    Photos
+  </div>
+  </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">kenny</a>.
+  </div>
+</body>
+</html>
